@@ -15,7 +15,7 @@ function randomNumber(max, min=0) {
 }
 
 function randomColor() {
-    const colors = ["red", "blue", "white", "gray", "pink", "purple", "aquamrine", "beige", "Crimson", "indigo", "linen", "brown", "tan", "wheat", "white"];
+    const colors = ["red", "blue", "white", "gray", "pink", "purple", "aquamarine", "beige", "Crimson", "indigo", "linen", "brown", "tan", "wheat", "white"];
     const max = colors.length;
 
     let random_color = colors[randomNumber(max, 0)];
